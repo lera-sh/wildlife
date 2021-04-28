@@ -1,0 +1,300 @@
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.main-section {
+    background-color: #02160b;
+    background-image: url(/assets/images/main-img.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 0px 120px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo-img {
+    size: 70px;
+}
+
+.main-list {
+    align-items: center;
+    display: flex;
+}
+
+.main-item {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    list-style: none;
+    padding-left: 60px;
+}
+
+.sign-in {
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    line-height: 25px;
+    margin: 0 60px;
+    padding: 10px 22px;
+    transition: .3s background-color ease, .3s color ease;
+}
+
+.sign-in:hover {
+    background-color: #CD6326;
+    cursor: pointer;
+}
+
+.sign-in:active {
+    background-color: #8F5613;
+    border: 2px solid #8F5613;
+    cursor: pointer;
+}
+
+.search {
+    padding-top: 7px;
+}
+
+
+.main-name, .main-item, .donate-text {
+    color: #F7F7F7;
+}
+
+.main-name {
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.donate-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 120px 0 215px 120px;
+}
+
+.donate-title {
+    color: #CD6326;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 80px;
+}
+
+.donate-text {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 29px;
+    padding-bottom: 50px;
+    width: 300px;
+}
+
+.donate-button {
+    background-color: #CD6326;
+    border: none;
+    border-radius: 5px;
+    color: #F7F7F7;;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.1px;
+    padding: 16px 42px;
+    transition: .3s background-color ease, .3s color ease;
+    width: 160px;
+}
+
+.donate-button:hover {
+    background-color: #E39128;
+    cursor: pointer;
+}
+
+.donate-button:active {
+    background-color: #8F5613;
+    cursor: pointer;
+}
+
+.latest-section {
+    align-items: center;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 120px 120px 0 110px;
+}
+
+.latest-title {
+    color: #333;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.latest-text {    
+    color: #666;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+
+.latest-photo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-list {
+    align-items: center;
+    display: flex;
+}
+
+.latest-item {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    list-style: none;
+    padding: 0 30px 100px;
+}
+
+.animal-name, .description {
+    color: #F7F7F7;    ;
+    position: relative;
+    text-align: center;
+    top: 310px;
+}
+
+.animal-name {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: 17px;
+    letter-spacing: .8px;
+}
+
+.vector {
+    padding-top: 50px;
+}
+
+.email-section {
+    background-color: #ccc;
+    padding: 140px 400px 200px 400px;
+}
+
+.email-title {
+    color: #333;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+}
+
+.email-field {
+    background-color: #ccc;
+    border: 1px solid #666;
+    color: #666;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 21px;
+    padding: 15px;
+    width: 600px;
+}
+
+.email-button {
+    background-color: #CD6326;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #F7F7F7;;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 23px;
+    padding: 16px 30px;
+    transition: .3s background-color ease, .3s color ease;
+    width: 120px;
+}
+
+.email-button:hover {
+    background-color: #E39128;
+    cursor: pointer;
+}
+
+.email-button:active {
+    background-color: #8F5613;
+    cursor: pointer;
+}
+
+.footer-section {
+    background-color: #181617;
+    background-image: url(/assets/images/footer.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 130px 140px 120px;
+}
+
+
+.logo-footer {
+    align-items: flex-start;
+    display: flex;
+}
+
+.footer-name {
+    color: #F7F7F7;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-top: 21px;
+}
+
+.nav-item {
+    color: #F7F7F7;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: .6px;
+    padding-left: 85px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    padding-top: 11px;
+}
+
+.social-item {
+    padding-left: 25px;
+}

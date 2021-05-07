@@ -1,0 +1,982 @@
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.main-section {
+    background-color: #02160b;
+    background-image: url(/assets/images/main-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.menu {
+    display: none;
+}
+
+.header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 0px 120px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo-img {
+    size: 70px;
+}
+
+.main-list {
+    align-items: center;
+    display: flex;
+}
+
+.main-item {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    list-style: none;
+    padding-left: 60px;
+}
+
+.sign-in {
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    line-height: 25px;
+    margin: 0 60px;
+    padding: 10px 22px;
+    transition: .3s background-color ease, .3s color ease;
+}
+
+.sign-in:hover {
+    background-color: #CD6326;
+    cursor: pointer;
+}
+
+.sign-in:active {
+    background-color: #8F5613;
+    border: 2px solid #8F5613;
+    cursor: pointer;
+}
+
+.search {
+    padding-top: 7px;
+}
+
+
+.main-name, .main-item, .donate-text {
+    color: #F7F7F7;
+}
+
+.main-name {
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.donate-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 120px 0 215px 120px;
+}
+
+.donate-title {
+    color: #CD6326;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 80px;
+}
+
+.donate-text {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 29px;
+    padding-bottom: 50px;
+    width: 300px;
+}
+
+.donate-button {
+    background-color: #CD6326;
+    border: none;
+    border-radius: 5px;
+    color: #F7F7F7;;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.1px;
+    padding: 16px 42px;
+    transition: .3s background-color ease, .3s color ease;
+    width: 160px;
+}
+
+.donate-button:hover {
+    background-color: #E39128;
+    cursor: pointer;
+}
+
+.donate-button:active {
+    background-color: #8F5613;
+    cursor: pointer;
+}
+
+.latest-section {
+    align-items: center;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 120px 110px 0 110px;
+}
+
+.latest-title {
+    color: #333;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.latest-text {    
+    color: #666;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+
+.latest-photo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-list {
+    align-items: center;
+    display: flex;
+}
+
+.latest-item {
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    list-style: none;
+    padding: 0 30px 100px;
+}
+
+.animal-name, .description {
+    color: #F7F7F7;    ;
+    position: relative;
+    text-align: center;
+    top: 310px;
+}
+
+.animal-name {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: 17px;
+    letter-spacing: .8px;
+}
+
+.vector {
+    padding-top: 50px;
+}
+
+.email-section {
+    background-color: #ccc;
+    padding: 140px 300px 200px 300px;
+}
+
+.email-title {
+    color: #333;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+}
+
+.email-field {
+    background-color: #ccc;
+    border: 1px solid #666;
+    color: #666;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 21px;
+    padding: 15px;
+    width: 600px;
+}
+
+.email-button {
+    background-color: #CD6326;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #F7F7F7;;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 23px;
+    padding: 16px 30px;
+    transition: .3s background-color ease, .3s color ease;
+    width: 120px;
+}
+
+.email-button:hover {
+    background-color: #E39128;
+    cursor: pointer;
+}
+
+.email-button:active {
+    background-color: #8F5613;
+    cursor: pointer;
+}
+
+.footer-section {
+    background-color: #181617;
+    background-image: url(/assets/images/footer.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 120px 140px 120px;
+}
+
+
+.logo-footer {
+    align-items: flex-start;
+    display: flex;
+}
+
+.footer-name {
+    color: #F7F7F7;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-top: 21px;
+}
+
+.nav-item {
+    color: #F7F7F7;
+    font-family: 'Open Sans', 'Times New Poman', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: .6px;
+    padding-left: 85px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    padding-top: 11px;
+}
+
+.social-item {
+    padding-left: 25px;
+}
+
+@media (max-width:1440px) {
+
+    .latest-item {
+        padding: 0 15px 100px;
+    }
+
+    .email-title {
+        font-size: 24px;
+    }   
+
+    .email-field {
+        width: 400px;
+    }
+    
+    .latest-img {
+        max-width: 280px;
+    }
+
+    .latest-title {
+        font-size: 42px;
+    }
+
+    .latest-text {
+        font-size: 22px;
+    }
+
+    .footer-img {
+        max-width: 65px;  
+    }
+
+    .footer-name {
+        font-size: 30px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        padding-left: 60px;
+    }
+
+    .social-img {
+        max-width: 34px;
+    }
+
+    .social-item {
+        padding-left: 23px;
+    }
+
+    .footer-section {
+        padding: 150px 110px 140px 110px;
+    }
+}
+
+@media (max-width:1216px) {
+
+    .header-section {
+        padding: 20px 40px 0px 80px;
+    }
+
+    .main-item {
+        font-size: 20px;
+        padding-left: 40px;
+    }
+
+    .search-img {
+        width: 29px;
+    }
+
+    .sign-in {
+        margin: 0 38px;
+        padding: 8px 18px;
+    }
+
+    .donate-part {
+        padding: 110px 0 200px 80px;
+    }
+
+    .donate-title {
+        padding-bottom: 60px;
+    }
+
+    .latest-item {
+        padding: 0 13px 100px;
+    }
+
+    .latest-text {
+        padding-bottom: 20px;
+    }
+
+    .latest-img {
+        max-width: 240px;
+    }
+
+    .vector {
+        max-width: 30px;
+    }
+
+    .animal-name, .description {
+        top: 260px;
+    }
+
+    .animal-name {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .email-section {
+        padding: 100px 220px 160px 220px;
+    }
+
+    .email-title {
+        font-size: 22px;
+    }
+
+    .footer-section {
+        padding: 120px 50px 110px 70px;
+    }
+
+    .footer-img {
+        max-width: 57px;  
+    }
+
+    .footer-name {
+        font-size: 29px;
+        padding-left: 10px;
+        padding-top: 13px;
+    }
+
+    .logo-footer {
+        padding-right: 20px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+
+    .social-footer {
+        padding-left: 20px;
+    }
+
+    .social-img {
+        max-width: 30px;
+    }
+
+    .social-item {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:928px) {
+
+    .header-section {
+        padding: 20px 20px 0px 60px;
+    }
+
+    .logo-img {
+        max-width: 60px;
+    }
+
+    .main-name {
+        font-size: 29px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .main-item {
+        font-size: 18px;
+        padding-left: 34px;
+    }
+
+    .search-img {
+        width: 27px;
+    }
+
+    .sign-in {
+        margin: 0 28px;
+        padding: 7px 17px;
+    }
+
+    .donate-part {
+        padding: 100px 0 180px 80px;
+    }
+
+    .donate-title {
+        font-size: 43px;
+        padding-bottom: 40px;
+    }
+
+    .donate-text {
+        font-size: 18px;
+        padding-bottom: 30px;
+        max-width: 270px;
+    }
+
+    .donate-button {
+        font-size: 19px;
+        padding: 13px 35px;
+        max-width: 150px;
+    }
+
+    .latest-section {
+        padding: 100px 110px 0 110px;
+    }
+
+    .latest-title {
+        font-size: 41px;
+        padding-bottom: 18px;
+        padding-left: 56px;
+    }
+
+    .latest-text {
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    .latest-item {
+        padding: 0 11px 100px;
+    }
+
+    .latest-img {
+        max-width: 200px;
+    }
+
+    .vector {
+        max-width: 22px;
+    }
+
+    .left-vector {
+        max-width: 20px;
+    }
+
+    .animal-name, .description {
+        top: 220px;
+    }
+
+    .animal-name {
+        font-size: 19px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+    
+    .email-section {
+        padding: 90px 150px 160px 150px;
+    }
+
+    .email-title {
+        font-size: 21px;
+    }
+
+    .email-field {
+        font-size: 19px;
+    }
+
+    .email-button {
+        font-size: 20px;
+        padding: 12px 28px;
+        width: 120px;
+    }
+
+    .footer-section {
+        padding: 80px 20px 80px 60px;
+    }
+
+    .footer-img {
+        max-width: 50px;  
+    }
+
+    .footer-name {
+        font-size: 26px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .logo-footer {
+        padding-right: 0px;
+        padding-top: 22px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        padding: 6px 0 6px 20px;
+    }
+
+    .social-footer {
+        padding-left: 0px;
+    }
+
+    .social-list {
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+
+    .social-img {
+        max-width: 32px;
+    }
+
+    .social-item {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .header-section {
+        padding: 20px 20px 0px 40px;
+    }
+
+    .burger-menu {
+        cursor: pointer;
+        display: block;
+        height: 20%;
+        left: 0;
+        line-height: 40px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .burger-line {
+        background-color: #fff;
+        height: 3px;
+        margin: 20px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 50px;
+    }
+
+    .sign-in {
+        border: none;
+        margin: 0;
+        padding: none;
+    }
+
+    .sign-in:hover {
+        background-color: none;
+    }
+
+    .sign-in:active {
+        background-color: none;
+        border: none;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .second, .third {
+        top: 22px;
+    }
+
+    .fourth {
+        top: 34px;
+    }
+
+    .navigatioin {
+        color: #fff;
+        height: 40px;
+        position: relative;
+    }
+
+    .main-list {
+        flex-direction: column;
+        font-size: 0;
+        max-height: 0;
+        overflow: hidden;
+        padding-top: 20px;
+        position: absolute;
+        transform: translateX(-90%);
+        transition: .5s all;
+    }
+
+    .main-item {
+        border-bottom: 1px solid #fff;
+        display: block;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .search {
+        padding: 18px 20px 12px;
+    }
+
+    .menu:checked ~ .main-list {
+        font-size: 16px;
+        max-height: 500px;
+    }
+
+    .menu:checked ~ .first {
+        display: none;
+    }
+
+    .menu:checked ~ .second {
+        transform: rotate(45deg);
+    }
+
+    .menu:checked ~ .third {
+        transform: rotate(-45deg);
+    }
+
+    .menu:checked ~ .fourth {
+        display: none;
+    }
+
+    .latest-title {
+        font-size: 34px;
+        padding-bottom: 15px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .latest-text {
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .latest-img {
+        max-width: 150px;
+    }
+
+    .vector {
+        max-width: 20px;
+    }
+
+    .left-vector {
+        max-width: 18px;
+    }
+
+    .latest-item {
+        padding: 0 5px 70px;
+    }
+
+    .animal-name {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 9px;
+    }
+
+    .animal-name, .description {
+        top: 170px;
+    }
+
+    .email-section {
+        padding: 70px 100px 160px 100px;
+    }
+
+    .email-title {
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    .email-field {
+        font-size: 15px;
+        height: 13px;
+    }
+
+    .email-button {
+        font-size: 15px;
+        height: 45px;
+        padding: 1px 22px;
+    }
+
+    .footer-section {
+        padding: 25px 40px 15px 40px;
+    }
+
+    .footer-img {
+        max-width: 45px;
+    }
+
+    .footer-name {
+        font-size: 21px;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .logo-footer {
+        padding-top: 58px;
+    }
+
+    .nav-item {
+        font-size: 13px;
+        padding: 6px 0 6px 20px;
+    }
+
+    .nav-list {
+        padding-top: 37px;
+    }
+
+    .social-item {
+        padding-bottom: 7px;
+    }
+
+    .social-list {
+        flex-direction: column;
+        padding-right: 20px;
+        padding-top: 0;
+    }
+
+    .social-img {
+        max-width: 28px;
+    }
+}
+
+@media (max-width:544px) {
+
+    .header-section {
+        padding: 15px 5px 0px 25px;
+    }
+
+    .logo-img {
+        max-width: 50px;
+    }
+
+    .main-name {
+        font-size: 25px;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+    
+    .burger-line {
+        margin-right: 15px;
+        top: 5px;
+        width: 46px;
+    }
+
+    .second, .third {
+        top: 17px;
+    }
+
+    .fourth {
+        top: 29px;
+    }
+
+    .main-item {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .sign-in {
+        padding: 12px 15px 11px;
+    }
+
+    .search {
+        padding: 13px 15px 7px;
+    }
+
+    .donate-part {
+        padding: 60px 0 150px 40px;
+    }
+
+    .donate-button {
+        font-size: 15px;
+        padding: 12px 25px;
+        max-width: 120px;
+    }
+
+    .donate-title {
+        color: #E39128;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .donate-text {
+        font-size: 14px;
+        padding-bottom: 30px;
+        max-width: 210px;
+    }
+
+    .latest-section {
+        padding: 80px 30px 0 30px;
+    }
+
+    .latest-title {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .latest-text {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+
+    .vector {
+        display: none
+    }
+
+    .latest-list {
+        flex-direction: column;
+    }
+
+    .latest-img {
+        max-width: 170px;
+    }
+
+    .latest-item {
+        padding: 0;
+    }
+
+    .animal-name, .description {
+        top: 185px;
+    }
+
+    .email-section {
+        padding: 90px 50px 100px 50px;
+    }
+
+    .email-title {
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+
+    .email-field {
+        font-size: 14px;
+        height: 8px;
+    }
+
+    .email-button {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        padding: 10px 30px 15px 30px;
+    }
+
+    .logo-footer {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .nav-item {
+        font-size: 13px;
+        padding: 6px 10px 6px 10px;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .social-item {
+        padding-bottom: 7px;
+    }
+
+    .social-list {
+        flex-direction: row;
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    
+    .social-img {
+        max-width: 28px;
+    }
+}
